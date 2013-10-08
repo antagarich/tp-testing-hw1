@@ -33,53 +33,67 @@ public class Tests {
 
     @Test
     public void SanityTest() {
-        Search TestPage = new Search(driver);
-        TestPage.search("ВКонтакте");
-        Assert.assertTrue(TestPage.getTitle().contains("ВКонтакте"));
+        MainPage TestPage = new MainPage(driver);
+        ResultPage resultTestPage = TestPage.search("ВКонтакте");
+        Assert.assertTrue(resultTestPage.getTitle().contains("ВКонтакте"));
     }
 
     @Test
-    public void exchangeRatesTest() throws UnsupportedEncodingException {
-        Search TestPage = new Search(driver);
-        TestPage.search("Восход солнца Хабаровск");
-        Assert.assertEquals(TestPage.getCity(), ": Хабаровск");
+    public void citySunriseTest() throws UnsupportedEncodingException {
+        MainPage TestPage = new MainPage(driver);
+        ResultPage resultTestPage = TestPage.search("Восход солнца Хабаровск");
+        Assert.assertEquals(resultTestPage.getCity(), ": Хабаровск");
 
-        TestPage.search("Восход солнца Липецк");
-        Assert.assertEquals(TestPage.getCity(), ": Липецк");
+        resultTestPage = TestPage.search("Восход солнца Липецк");
+        Assert.assertEquals(resultTestPage.getCity(), ": Липецк");
     }
 
     @Test
     public void suggestsTest() throws InterruptedException {
-        Search TestPage = new Search (driver);
+        MainPage TestPage = new MainPage (driver);
         TestPage.enterText("mail");
         Thread.sleep(1000);
         Assert.assertTrue(TestPage.getSuggests().contains("mail.ru"));
     }
 
     @Test
-    public void suggestsTest_sec() throws InterruptedException {
-        Search TestPage = new Search (driver);
-        TestPage.enterText("восход");
-        Thread.sleep(1000);
-        Assert.assertTrue(TestPage.getSuggests().contains("восход солнца"));
-    }
-
-    @Test
     public void changeCityTest() throws InterruptedException {
-        Search TestPage = new Search (driver);
-        TestPage.search("Восход солнца Москва");
-        Assert.assertEquals(TestPage.getCity(), ": Москва");
-        TestPage.changeCityAndClickEnter("Тамбов");
-        Assert.assertEquals(TestPage.getCity(), ": Тамбов");
+        MainPage TestPage = new MainPage (driver);
+        ResultPage resultTestPage = TestPage.search("Восход солнца Москва");
+        Assert.assertEquals(resultTestPage.getCity(), ": Москва");
+        resultTestPage.changeCityAndClickEnter("Тамбов");
+        Assert.assertEquals(resultTestPage.getCity(), ": Тамбов");
     }
 
     @Test
     public void suggestsCityTest() throws InterruptedException{
-        Search TestPage = new Search (driver);
-        TestPage.search("Восход солнца");
-        TestPage.changeCity("Хант");
+        MainPage TestPage = new MainPage (driver);
+        ResultPage resultTestPage = TestPage.search("Восход солнца");
+        resultTestPage.changeCity("Хант");
         Thread.sleep(1000);
-        Assert.assertTrue(TestPage.getSuggestsCity().contains("Ханты-Мансийск"));
+        Assert.assertTrue(resultTestPage.getSuggestsCity().contains("Ханты-Мансийск"));
+    }
+
+    @Test
+    public void dateSunriseTest() throws InterruptedException {
+        MainPage TestPage = new MainPage(driver);
+        ResultPage resultTestPage = TestPage.search("Восход солнца 2 мая 2012");
+        Assert.assertEquals(resultTestPage.getDate(), "2 мая 2012, среда");
+    }
+
+    @Test
+    public void datedefinitionSunriseTest() throws InterruptedException {
+        MainPage TestPage = new MainPage(driver);
+        ResultPage resultTestPage = TestPage.search("Восход солнца воскресенье");
+        Assert.assertEquals(resultTestPage.getDate(), "13 октября 2013, воскресенье");
+    }
+
+    @Test
+    public void complexWorkTest() throws InterruptedException{
+        MainPage TestPage = new MainPage(driver);
+        ResultPage resultTestPage = TestPage.search("восход солнца в москве 25 августа 2012");
+        Assert.assertEquals(resultTestPage.getCity(), ": Москва");
+        Assert.assertEquals(resultTestPage.getDate(), "25 августа 2012, суббота");
     }
 
     @AfterMethod

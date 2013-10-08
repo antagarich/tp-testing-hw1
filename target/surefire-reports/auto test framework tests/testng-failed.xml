@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" verbose="0" name="Failed suite [auto test framework tests]" parallel="tests">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="hub" value="http://localhost:4444/wd/hub"/>
+  <parameter name="url" value="http://go.mail.ru"/>
+  <test name="chrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="suggestsCityTest"/>
+          <include name="citySunriseTest"/>
+          <include name="dateSunriseTest"/>
+          <include name="suggestsTest"/>
+          <include name="complexWorkTest"/>
+          <include name="changeCityTest"/>
+          <include name="SanityTest"/>
+          <include name="datedefinitionSunriseTest"/>
+        </methods>
+      </class> <!-- Tests -->
+    </classes>
+  </test> <!-- chrome(failed) -->
+  <test name="firefox(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="Tests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="changeCityTest"/>
+        </methods>
+      </class> <!-- Tests -->
+    </classes>
+  </test> <!-- firefox(failed) -->
+</suite> <!-- Failed suite [auto test framework tests] -->
