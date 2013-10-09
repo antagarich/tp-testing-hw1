@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="51.033" tests="32" errors="0" skipped="23" failures="2">
+<testsuite name="TestSuite" time="103.859" tests="32" errors="0" skipped="23" failures="2">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64"/>
@@ -58,9 +58,9 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="setUp" classname="Tests" time="0.862">
-    <failure message="The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see http://code.google.com/p/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://code.google.com/p/chromedriver/downloads/list&#10;Command duration or timeout: 143 milliseconds&#10;Build info: version: &apos;2.35.0&apos;, revision: &apos;8df0c6bedf70ff9f22c647788f9fe9c8d22210e2&apos;, time: &apos;2013-08-17 12:46:41&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.11.1-031101-generic&apos;, java.version: &apos;1.7.0_25&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see http://code.google.com/p/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://code.google.com/p/chromedriver/downloads/list
-Command duration or timeout: 143 milliseconds
+  <testcase name="setUp" classname="Tests" time="0.84">
+    <failure message="The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see http://code.google.com/p/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://code.google.com/p/chromedriver/downloads/list&#10;Command duration or timeout: 133 milliseconds&#10;Build info: version: &apos;2.35.0&apos;, revision: &apos;8df0c6bedf70ff9f22c647788f9fe9c8d22210e2&apos;, time: &apos;2013-08-17 12:46:41&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.11.1-031101-generic&apos;, java.version: &apos;1.7.0_25&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see http://code.google.com/p/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://code.google.com/p/chromedriver/downloads/list
+Command duration or timeout: 133 milliseconds
 Build info: version: '2.35.0', revision: '8df0c6bedf70ff9f22c647788f9fe9c8d22210e2', time: '2013-08-17 12:46:41'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.11.1-031101-generic', java.version: '1.7.0_25'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
@@ -153,9 +153,9 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
   <testcase name="tearDown" classname="Tests" time="0">
     <skipped/>
   </testcase>
-  <testcase name="SanityTest" classname="Tests" time="2.851"/>
-  <testcase name="changeCityTest" classname="Tests" time="1.158">
-    <failure message="expected [: Тамбов] but found [: Москва]" type="java.lang.AssertionError">java.lang.AssertionError: expected [: Тамбов] but found [: Москва]
+  <testcase name="SanityTest" classname="Tests" time="1.817"/>
+  <testcase name="changeCityTest" classname="Tests" time="45.704">
+    <failure message="expected [Тамбов] but found [Москва]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Тамбов] but found [Москва]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertEquals(Assert.java:123)
@@ -164,10 +164,10 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
 	at Tests.changeCityTest(Tests.java:65)
 </failure>
   </testcase>
-  <testcase name="citySunriseTest" classname="Tests" time="18.583"/>
-  <testcase name="complexWorkTest" classname="Tests" time="17.053"/>
-  <testcase name="dateSunriseTest" classname="Tests" time="2.601"/>
-  <testcase name="datedefinitionSunriseTest" classname="Tests" time="2.592"/>
-  <testcase name="suggestsCityTest" classname="Tests" time="2.64"/>
-  <testcase name="suggestsTest" classname="Tests" time="2.693"/>
+  <testcase name="citySunriseTest" classname="Tests" time="9.181"/>
+  <testcase name="complexWorkTest" classname="Tests" time="4.697"/>
+  <testcase name="dateSunriseTest" classname="Tests" time="14.756"/>
+  <testcase name="datedefinitionSunriseTest" classname="Tests" time="17.417"/>
+  <testcase name="suggestsCityTest" classname="Tests" time="7.765"/>
+  <testcase name="suggestsTest" classname="Tests" time="1.682"/>
 </testsuite>

@@ -42,10 +42,10 @@ public class Tests {
     public void citySunriseTest() throws UnsupportedEncodingException {
         MainPage TestPage = new MainPage(driver);
         ResultPage resultTestPage = TestPage.search("Восход солнца Хабаровск");
-        Assert.assertEquals(resultTestPage.getCity(), ": Хабаровск");
+        Assert.assertEquals(resultTestPage.getCity(), "Хабаровск");
 
         resultTestPage = TestPage.search("Восход солнца Липецк");
-        Assert.assertEquals(resultTestPage.getCity(), ": Липецк");
+        Assert.assertEquals(resultTestPage.getCity(), "Липецк");
     }
 
     @Test
@@ -60,9 +60,9 @@ public class Tests {
     public void changeCityTest() throws InterruptedException {
         MainPage TestPage = new MainPage (driver);
         ResultPage resultTestPage = TestPage.search("Восход солнца Москва");
-        Assert.assertEquals(resultTestPage.getCity(), ": Москва");
+        Assert.assertEquals(resultTestPage.getCity(), "Москва");
         resultTestPage.changeCityAndClickEnter("Тамбов");
-        Assert.assertEquals(resultTestPage.getCity(), ": Тамбов");
+        Assert.assertEquals(resultTestPage.getCity(), "Тамбов");
     }
 
     @Test
@@ -78,22 +78,22 @@ public class Tests {
     public void dateSunriseTest() throws InterruptedException {
         MainPage TestPage = new MainPage(driver);
         ResultPage resultTestPage = TestPage.search("Восход солнца 2 мая 2012");
-        Assert.assertEquals(resultTestPage.getDate(), "2 мая 2012, среда");
+        Assert.assertEquals(resultTestPage.getDate(), "2 мая 2012");
     }
 
     @Test
     public void datedefinitionSunriseTest() throws InterruptedException {
         MainPage TestPage = new MainPage(driver);
         ResultPage resultTestPage = TestPage.search("Восход солнца воскресенье");
-        Assert.assertEquals(resultTestPage.getDate(), "13 октября 2013, воскресенье");
+        Assert.assertEquals(resultTestPage.getDate(), "13 октября 2013");
     }
 
     @Test
     public void complexWorkTest() throws InterruptedException{
         MainPage TestPage = new MainPage(driver);
         ResultPage resultTestPage = TestPage.search("восход солнца в москве 25 августа 2012");
-        Assert.assertEquals(resultTestPage.getCity(), ": Москва");
-        Assert.assertEquals(resultTestPage.getDate(), "25 августа 2012, суббота");
+        Assert.assertEquals(resultTestPage.getCity(), "Москва");
+        Assert.assertEquals(resultTestPage.getDate(), "25 августа 2012");
     }
 
     @AfterMethod

@@ -1,10 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 32, Failures: 2, Errors: 0, Skipped: 23, Time elapsed: 321.111 sec <<< FAILURE!
-setUp(Tests)  Time elapsed: 0.862 sec  <<< FAILURE!
+Tests run: 32, Failures: 2, Errors: 0, Skipped: 23, Time elapsed: 309.257 sec <<< FAILURE!
+setUp(Tests)  Time elapsed: 0.84 sec  <<< FAILURE!
 org.openqa.selenium.WebDriverException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see http://code.google.com/p/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://code.google.com/p/chromedriver/downloads/list
-Command duration or timeout: 143 milliseconds
+Command duration or timeout: 133 milliseconds
 Build info: version: '2.35.0', revision: '8df0c6bedf70ff9f22c647788f9fe9c8d22210e2', time: '2013-08-17 12:46:41'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.11.1-031101-generic', java.version: '1.7.0_25'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
@@ -27,8 +27,8 @@ Driver info: org.openqa.selenium.remote.RemoteWebDriver
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:724)
 
-changeCityTest(Tests)  Time elapsed: 1.158 sec  <<< FAILURE!
-java.lang.AssertionError: expected [: Тамбов] but found [: Москва]
+changeCityTest(Tests)  Time elapsed: 45.704 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Тамбов] but found [Москва]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertEquals(Assert.java:123)

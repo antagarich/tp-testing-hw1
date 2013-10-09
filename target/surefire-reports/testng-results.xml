@@ -2,12 +2,12 @@
 <testng-results skipped="8" failed="1" total="16" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="auto test framework tests" duration-ms="320653" started-at="2013-10-08T21:05:26Z" finished-at="2013-10-08T21:10:47Z">
+  <suite name="auto test framework tests" duration-ms="308792" started-at="2013-10-09T19:59:17Z" finished-at="2013-10-09T20:04:26Z">
     <groups>
     </groups>
-    <test name="chrome" duration-ms="546" started-at="2013-10-08T21:05:26Z" finished-at="2013-10-08T21:05:26Z">
+    <test name="chrome" duration-ms="520" started-at="2013-10-09T19:59:17Z" finished-at="2013-10-09T19:59:18Z">
       <class name="Tests">
-        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests@687090a8]" name="setUp" is-config="true" duration-ms="0" started-at="2013-10-09T01:05:26Z" finished-at="2013-10-09T01:05:26Z">
+        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests@44215571]" name="setUp" is-config="true" duration-ms="0" started-at="2013-10-09T23:59:17Z" finished-at="2013-10-09T23:59:17Z">
           <params>
             <param index="0">
               <value>
@@ -28,14 +28,14 @@
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see http://code.google.com/p/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://code.google.com/p/chromedriver/downloads/list
-Command duration or timeout: 143 milliseconds
+Command duration or timeout: 133 milliseconds
 Build info: version: '2.35.0', revision: '8df0c6bedf70ff9f22c647788f9fe9c8d22210e2', time: '2013-08-17 12:46:41'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.11.1-031101-generic', java.version: '1.7.0_25'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see http://code.google.com/p/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://code.google.com/p/chromedriver/downloads/list
-Command duration or timeout: 143 milliseconds
+Command duration or timeout: 133 milliseconds
 Build info: version: '2.35.0', revision: '8df0c6bedf70ff9f22c647788f9fe9c8d22210e2', time: '2013-08-17 12:46:41'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '3.11.1-031101-generic', java.version: '1.7.0_25'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
@@ -96,103 +96,103 @@ Caused by: java.lang.IllegalStateException: The path to the driver executable mu
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="SanityTest()[pri:0, instance:Tests@687090a8]" name="SanityTest" duration-ms="1" started-at="2013-10-09T01:05:26Z" finished-at="2013-10-09T01:05:26Z">
+        <test-method status="SKIP" signature="SanityTest()[pri:0, instance:Tests@44215571]" name="SanityTest" duration-ms="1" started-at="2013-10-09T23:59:18Z" finished-at="2013-10-09T23:59:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SanityTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:Tests@687090a8]" name="tearDown" is-config="true" duration-ms="0" started-at="2013-10-09T01:05:26Z" finished-at="2013-10-09T01:05:26Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:Tests@44215571]" name="tearDown" is-config="true" duration-ms="0" started-at="2013-10-09T23:59:18Z" finished-at="2013-10-09T23:59:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests@687090a8]" name="setUp" is-config="true" duration-ms="0" started-at="2013-10-09T01:05:26Z" finished-at="2013-10-09T01:05:26Z">
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests@44215571]" name="setUp" is-config="true" duration-ms="0" started-at="2013-10-09T23:59:18Z" finished-at="2013-10-09T23:59:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="changeCityTest()[pri:0, instance:Tests@687090a8]" name="changeCityTest" duration-ms="0" started-at="2013-10-09T01:05:26Z" finished-at="2013-10-09T01:05:26Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:Tests@44215571]" name="tearDown" is-config="true" duration-ms="0" started-at="2013-10-09T23:59:18Z" finished-at="2013-10-09T23:59:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="changeCityTest()[pri:0, instance:Tests@44215571]" name="changeCityTest" duration-ms="0" started-at="2013-10-09T23:59:18Z" finished-at="2013-10-09T23:59:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- changeCityTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:Tests@687090a8]" name="tearDown" is-config="true" duration-ms="0" started-at="2013-10-09T01:05:26Z" finished-at="2013-10-09T01:05:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests@687090a8]" name="setUp" is-config="true" duration-ms="0" started-at="2013-10-09T01:05:26Z" finished-at="2013-10-09T01:05:26Z">
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests@44215571]" name="setUp" is-config="true" duration-ms="0" started-at="2013-10-09T23:59:18Z" finished-at="2013-10-09T23:59:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="citySunriseTest()[pri:0, instance:Tests@687090a8]" name="citySunriseTest" duration-ms="1" started-at="2013-10-09T01:05:26Z" finished-at="2013-10-09T01:05:26Z">
+        <test-method status="SKIP" signature="citySunriseTest()[pri:0, instance:Tests@44215571]" name="citySunriseTest" duration-ms="0" started-at="2013-10-09T23:59:18Z" finished-at="2013-10-09T23:59:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- citySunriseTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:Tests@687090a8]" name="tearDown" is-config="true" duration-ms="0" started-at="2013-10-09T01:05:26Z" finished-at="2013-10-09T01:05:26Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:Tests@44215571]" name="tearDown" is-config="true" duration-ms="0" started-at="2013-10-09T23:59:18Z" finished-at="2013-10-09T23:59:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests@687090a8]" name="setUp" is-config="true" duration-ms="0" started-at="2013-10-09T01:05:26Z" finished-at="2013-10-09T01:05:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="complexWorkTest()[pri:0, instance:Tests@687090a8]" name="complexWorkTest" duration-ms="0" started-at="2013-10-09T01:05:26Z" finished-at="2013-10-09T01:05:26Z">
+        <test-method status="SKIP" signature="complexWorkTest()[pri:0, instance:Tests@44215571]" name="complexWorkTest" duration-ms="0" started-at="2013-10-09T23:59:18Z" finished-at="2013-10-09T23:59:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- complexWorkTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:Tests@687090a8]" name="tearDown" is-config="true" duration-ms="0" started-at="2013-10-09T01:05:26Z" finished-at="2013-10-09T01:05:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests@687090a8]" name="setUp" is-config="true" duration-ms="0" started-at="2013-10-09T01:05:26Z" finished-at="2013-10-09T01:05:26Z">
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests@44215571]" name="setUp" is-config="true" duration-ms="0" started-at="2013-10-09T23:59:18Z" finished-at="2013-10-09T23:59:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="dateSunriseTest()[pri:0, instance:Tests@687090a8]" name="dateSunriseTest" duration-ms="1" started-at="2013-10-09T01:05:26Z" finished-at="2013-10-09T01:05:26Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:Tests@44215571]" name="tearDown" is-config="true" duration-ms="0" started-at="2013-10-09T23:59:18Z" finished-at="2013-10-09T23:59:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="dateSunriseTest()[pri:0, instance:Tests@44215571]" name="dateSunriseTest" duration-ms="1" started-at="2013-10-09T23:59:18Z" finished-at="2013-10-09T23:59:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dateSunriseTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:Tests@687090a8]" name="tearDown" is-config="true" duration-ms="0" started-at="2013-10-09T01:05:26Z" finished-at="2013-10-09T01:05:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests@687090a8]" name="setUp" is-config="true" duration-ms="0" started-at="2013-10-09T01:05:26Z" finished-at="2013-10-09T01:05:26Z">
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests@44215571]" name="setUp" is-config="true" duration-ms="0" started-at="2013-10-09T23:59:18Z" finished-at="2013-10-09T23:59:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="datedefinitionSunriseTest()[pri:0, instance:Tests@687090a8]" name="datedefinitionSunriseTest" duration-ms="1" started-at="2013-10-09T01:05:26Z" finished-at="2013-10-09T01:05:26Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:Tests@44215571]" name="tearDown" is-config="true" duration-ms="0" started-at="2013-10-09T23:59:18Z" finished-at="2013-10-09T23:59:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests@44215571]" name="setUp" is-config="true" duration-ms="0" started-at="2013-10-09T23:59:18Z" finished-at="2013-10-09T23:59:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="datedefinitionSunriseTest()[pri:0, instance:Tests@44215571]" name="datedefinitionSunriseTest" duration-ms="0" started-at="2013-10-09T23:59:18Z" finished-at="2013-10-09T23:59:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- datedefinitionSunriseTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:Tests@687090a8]" name="tearDown" is-config="true" duration-ms="0" started-at="2013-10-09T01:05:26Z" finished-at="2013-10-09T01:05:26Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:Tests@44215571]" name="tearDown" is-config="true" duration-ms="0" started-at="2013-10-09T23:59:18Z" finished-at="2013-10-09T23:59:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests@687090a8]" name="setUp" is-config="true" duration-ms="0" started-at="2013-10-09T01:05:26Z" finished-at="2013-10-09T01:05:26Z">
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests@44215571]" name="setUp" is-config="true" duration-ms="0" started-at="2013-10-09T23:59:18Z" finished-at="2013-10-09T23:59:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:Tests@687090a8]" name="tearDown" is-config="true" duration-ms="0" started-at="2013-10-09T01:05:26Z" finished-at="2013-10-09T01:05:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="suggestsCityTest()[pri:0, instance:Tests@687090a8]" name="suggestsCityTest" duration-ms="0" started-at="2013-10-09T01:05:26Z" finished-at="2013-10-09T01:05:26Z">
+        <test-method status="SKIP" signature="suggestsCityTest()[pri:0, instance:Tests@44215571]" name="suggestsCityTest" duration-ms="0" started-at="2013-10-09T23:59:18Z" finished-at="2013-10-09T23:59:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suggestsCityTest -->
-        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests@687090a8]" name="setUp" is-config="true" duration-ms="0" started-at="2013-10-09T01:05:26Z" finished-at="2013-10-09T01:05:26Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:Tests@44215571]" name="tearDown" is-config="true" duration-ms="0" started-at="2013-10-09T23:59:18Z" finished-at="2013-10-09T23:59:18Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="suggestsTest()[pri:0, instance:Tests@687090a8]" name="suggestsTest" duration-ms="0" started-at="2013-10-09T01:05:26Z" finished-at="2013-10-09T01:05:26Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="suggestsTest()[pri:0, instance:Tests@44215571]" name="suggestsTest" duration-ms="1" started-at="2013-10-09T23:59:18Z" finished-at="2013-10-09T23:59:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suggestsTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:Tests@687090a8]" name="tearDown" is-config="true" duration-ms="0" started-at="2013-10-09T01:05:26Z" finished-at="2013-10-09T01:05:26Z">
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests@44215571]" name="setUp" is-config="true" duration-ms="0" started-at="2013-10-09T23:59:18Z" finished-at="2013-10-09T23:59:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:Tests@44215571]" name="tearDown" is-config="true" duration-ms="0" started-at="2013-10-09T23:59:18Z" finished-at="2013-10-09T23:59:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Tests -->
     </test> <!-- chrome -->
-    <test name="firefox" duration-ms="320653" started-at="2013-10-08T21:05:26Z" finished-at="2013-10-08T21:10:47Z">
+    <test name="firefox" duration-ms="308792" started-at="2013-10-09T19:59:17Z" finished-at="2013-10-09T20:04:26Z">
       <class name="Tests">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests@4ba046fe]" name="setUp" is-config="true" duration-ms="30838" started-at="2013-10-09T01:05:26Z" finished-at="2013-10-09T01:05:57Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests@3f75c03e]" name="setUp" is-config="true" duration-ms="27372" started-at="2013-10-09T23:59:17Z" finished-at="2013-10-09T23:59:44Z">
           <params>
             <param index="0">
               <value>
@@ -213,15 +213,15 @@ Caused by: java.lang.IllegalStateException: The path to the driver executable mu
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="SanityTest()[pri:0, instance:Tests@4ba046fe]" name="SanityTest" duration-ms="2851" started-at="2013-10-09T01:05:57Z" finished-at="2013-10-09T01:06:00Z">
+        <test-method status="PASS" signature="SanityTest()[pri:0, instance:Tests@3f75c03e]" name="SanityTest" duration-ms="1818" started-at="2013-10-09T23:59:44Z" finished-at="2013-10-09T23:59:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SanityTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests@4ba046fe]" name="tearDown" is-config="true" duration-ms="75" started-at="2013-10-09T01:06:00Z" finished-at="2013-10-09T01:06:00Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests@3f75c03e]" name="tearDown" is-config="true" duration-ms="76" started-at="2013-10-09T23:59:46Z" finished-at="2013-10-09T23:59:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests@4ba046fe]" name="setUp" is-config="true" duration-ms="16475" started-at="2013-10-09T01:06:00Z" finished-at="2013-10-09T01:06:16Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests@3f75c03e]" name="setUp" is-config="true" duration-ms="22427" started-at="2013-10-09T23:59:46Z" finished-at="2013-10-10T00:00:09Z">
           <params>
             <param index="0">
               <value>
@@ -242,13 +242,13 @@ Caused by: java.lang.IllegalStateException: The path to the driver executable mu
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="changeCityTest()[pri:0, instance:Tests@4ba046fe]" name="changeCityTest" duration-ms="1157" started-at="2013-10-09T01:06:16Z" finished-at="2013-10-09T01:06:17Z">
+        <test-method status="FAIL" signature="changeCityTest()[pri:0, instance:Tests@3f75c03e]" name="changeCityTest" duration-ms="45704" started-at="2013-10-10T00:00:09Z" finished-at="2013-10-10T00:00:55Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [: Тамбов] but found [: Москва]]]>
+              <![CDATA[expected [Тамбов] but found [Москва]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [: Тамбов] but found [: Москва]
+              <![CDATA[java.lang.AssertionError: expected [Тамбов] but found [Москва]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertEquals(Assert.java:123)
@@ -282,11 +282,11 @@ Caused by: java.lang.IllegalStateException: The path to the driver executable mu
           <reporter-output>
           </reporter-output>
         </test-method> <!-- changeCityTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests@4ba046fe]" name="tearDown" is-config="true" duration-ms="75" started-at="2013-10-09T01:06:17Z" finished-at="2013-10-09T01:06:17Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests@3f75c03e]" name="tearDown" is-config="true" duration-ms="75" started-at="2013-10-10T00:00:55Z" finished-at="2013-10-10T00:00:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests@4ba046fe]" name="setUp" is-config="true" duration-ms="17491" started-at="2013-10-09T01:06:17Z" finished-at="2013-10-09T01:06:35Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests@3f75c03e]" name="setUp" is-config="true" duration-ms="16505" started-at="2013-10-10T00:00:55Z" finished-at="2013-10-10T00:01:11Z">
           <params>
             <param index="0">
               <value>
@@ -307,15 +307,15 @@ Caused by: java.lang.IllegalStateException: The path to the driver executable mu
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="citySunriseTest()[pri:0, instance:Tests@4ba046fe]" name="citySunriseTest" duration-ms="18582" started-at="2013-10-09T01:06:35Z" finished-at="2013-10-09T01:06:53Z">
+        <test-method status="PASS" signature="citySunriseTest()[pri:0, instance:Tests@3f75c03e]" name="citySunriseTest" duration-ms="9182" started-at="2013-10-10T00:01:11Z" finished-at="2013-10-10T00:01:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- citySunriseTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests@4ba046fe]" name="tearDown" is-config="true" duration-ms="74" started-at="2013-10-09T01:06:53Z" finished-at="2013-10-09T01:06:54Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests@3f75c03e]" name="tearDown" is-config="true" duration-ms="73" started-at="2013-10-10T00:01:20Z" finished-at="2013-10-10T00:01:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests@4ba046fe]" name="setUp" is-config="true" duration-ms="16992" started-at="2013-10-09T01:06:54Z" finished-at="2013-10-09T01:07:11Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests@3f75c03e]" name="setUp" is-config="true" duration-ms="17000" started-at="2013-10-10T00:01:20Z" finished-at="2013-10-10T00:01:37Z">
           <params>
             <param index="0">
               <value>
@@ -336,15 +336,15 @@ Caused by: java.lang.IllegalStateException: The path to the driver executable mu
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="complexWorkTest()[pri:0, instance:Tests@4ba046fe]" name="complexWorkTest" duration-ms="17053" started-at="2013-10-09T01:07:11Z" finished-at="2013-10-09T01:07:28Z">
+        <test-method status="PASS" signature="complexWorkTest()[pri:0, instance:Tests@3f75c03e]" name="complexWorkTest" duration-ms="4698" started-at="2013-10-10T00:01:37Z" finished-at="2013-10-10T00:01:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- complexWorkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests@4ba046fe]" name="tearDown" is-config="true" duration-ms="72" started-at="2013-10-09T01:07:28Z" finished-at="2013-10-09T01:07:28Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests@3f75c03e]" name="tearDown" is-config="true" duration-ms="74" started-at="2013-10-10T00:01:42Z" finished-at="2013-10-10T00:01:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests@4ba046fe]" name="setUp" is-config="true" duration-ms="13086" started-at="2013-10-09T01:07:28Z" finished-at="2013-10-09T01:07:41Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests@3f75c03e]" name="setUp" is-config="true" duration-ms="20879" started-at="2013-10-10T00:01:42Z" finished-at="2013-10-10T00:02:03Z">
           <params>
             <param index="0">
               <value>
@@ -365,15 +365,15 @@ Caused by: java.lang.IllegalStateException: The path to the driver executable mu
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="dateSunriseTest()[pri:0, instance:Tests@4ba046fe]" name="dateSunriseTest" duration-ms="2601" started-at="2013-10-09T01:07:41Z" finished-at="2013-10-09T01:07:43Z">
+        <test-method status="PASS" signature="dateSunriseTest()[pri:0, instance:Tests@3f75c03e]" name="dateSunriseTest" duration-ms="14755" started-at="2013-10-10T00:02:03Z" finished-at="2013-10-10T00:02:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dateSunriseTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests@4ba046fe]" name="tearDown" is-config="true" duration-ms="72" started-at="2013-10-09T01:07:43Z" finished-at="2013-10-09T01:07:43Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests@3f75c03e]" name="tearDown" is-config="true" duration-ms="73" started-at="2013-10-10T00:02:18Z" finished-at="2013-10-10T00:02:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests@4ba046fe]" name="setUp" is-config="true" duration-ms="161559" started-at="2013-10-09T01:07:43Z" finished-at="2013-10-09T01:10:25Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests@3f75c03e]" name="setUp" is-config="true" duration-ms="32071" started-at="2013-10-10T00:02:18Z" finished-at="2013-10-10T00:02:50Z">
           <params>
             <param index="0">
               <value>
@@ -394,15 +394,15 @@ Caused by: java.lang.IllegalStateException: The path to the driver executable mu
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="datedefinitionSunriseTest()[pri:0, instance:Tests@4ba046fe]" name="datedefinitionSunriseTest" duration-ms="2592" started-at="2013-10-09T01:10:25Z" finished-at="2013-10-09T01:10:28Z">
+        <test-method status="PASS" signature="datedefinitionSunriseTest()[pri:0, instance:Tests@3f75c03e]" name="datedefinitionSunriseTest" duration-ms="17417" started-at="2013-10-10T00:02:50Z" finished-at="2013-10-10T00:03:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- datedefinitionSunriseTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests@4ba046fe]" name="tearDown" is-config="true" duration-ms="77" started-at="2013-10-09T01:10:28Z" finished-at="2013-10-09T01:10:28Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests@3f75c03e]" name="tearDown" is-config="true" duration-ms="74" started-at="2013-10-10T00:03:07Z" finished-at="2013-10-10T00:03:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests@4ba046fe]" name="setUp" is-config="true" duration-ms="9101" started-at="2013-10-09T01:10:28Z" finished-at="2013-10-09T01:10:37Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests@3f75c03e]" name="setUp" is-config="true" duration-ms="24815" started-at="2013-10-10T00:03:07Z" finished-at="2013-10-10T00:03:32Z">
           <params>
             <param index="0">
               <value>
@@ -423,15 +423,15 @@ Caused by: java.lang.IllegalStateException: The path to the driver executable mu
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="suggestsCityTest()[pri:0, instance:Tests@4ba046fe]" name="suggestsCityTest" duration-ms="2639" started-at="2013-10-09T01:10:37Z" finished-at="2013-10-09T01:10:39Z">
+        <test-method status="PASS" signature="suggestsCityTest()[pri:0, instance:Tests@3f75c03e]" name="suggestsCityTest" duration-ms="7765" started-at="2013-10-10T00:03:32Z" finished-at="2013-10-10T00:03:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suggestsCityTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests@4ba046fe]" name="tearDown" is-config="true" duration-ms="72" started-at="2013-10-09T01:10:39Z" finished-at="2013-10-09T01:10:39Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests@3f75c03e]" name="tearDown" is-config="true" duration-ms="73" started-at="2013-10-10T00:03:40Z" finished-at="2013-10-10T00:03:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests@4ba046fe]" name="setUp" is-config="true" duration-ms="4333" started-at="2013-10-09T01:10:39Z" finished-at="2013-10-09T01:10:44Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests@3f75c03e]" name="setUp" is-config="true" duration-ms="44096" started-at="2013-10-10T00:03:40Z" finished-at="2013-10-10T00:04:24Z">
           <params>
             <param index="0">
               <value>
@@ -452,11 +452,11 @@ Caused by: java.lang.IllegalStateException: The path to the driver executable mu
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="suggestsTest()[pri:0, instance:Tests@4ba046fe]" name="suggestsTest" duration-ms="2693" started-at="2013-10-09T01:10:44Z" finished-at="2013-10-09T01:10:47Z">
+        <test-method status="PASS" signature="suggestsTest()[pri:0, instance:Tests@3f75c03e]" name="suggestsTest" duration-ms="1682" started-at="2013-10-10T00:04:24Z" finished-at="2013-10-10T00:04:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suggestsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests@4ba046fe]" name="tearDown" is-config="true" duration-ms="74" started-at="2013-10-09T01:10:47Z" finished-at="2013-10-09T01:10:47Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests@3f75c03e]" name="tearDown" is-config="true" duration-ms="73" started-at="2013-10-10T00:04:26Z" finished-at="2013-10-10T00:04:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
